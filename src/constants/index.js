@@ -108,18 +108,6 @@ const technologies = [
     name: "NextJS",
     icon: next,
   },
-  {
-    name: "Photoshop",
-    icon: photoshop,
-  },
-  {
-    name: "Davinci",
-    icon: davinci,
-  },
-  {
-    name: "Framer Motion",
-    icon: motion,
-  },
 ];
 
 const experiences = [
