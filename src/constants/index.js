@@ -4,6 +4,7 @@ import {
   creator,
   web,
   javascript,
+  illustrator,
   typescript,
   html,
   css,
@@ -38,8 +39,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -88,8 +89,16 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "NextJS",
+    icon: next,
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwind,
+  },
+  {
+    name: "Framer Motion",
+    icon: motion,
   },
   {
     name: "Node JS",
@@ -105,8 +114,16 @@ const technologies = [
     icon: git,
   },
   {
-    name: "NextJS",
-    icon: next,
+    name: "Photoshop",
+    icon: photoshop,
+  },
+  {
+    name: "Illustrator",
+    icon: illustrator,
+  },
+  {
+    name: "Davinci",
+    icon: davinci,
   },
 ];
 

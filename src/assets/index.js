@@ -25,6 +25,7 @@ import next from "./tech/next.png";
 import davinci from "./tech/davinci.png";
 import photoshop from "./tech/photoshop.png";
 import motion from "./tech/motion.png";
+import illustrator from "./tech/illustrator.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -73,6 +74,7 @@ export {
   jobit,
   next,
   davinci,
+  illustrator,
   photoshop,
   tripguide,
 };
