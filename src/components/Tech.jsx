@@ -10,7 +10,7 @@ import { SectionWrapper } from "../hoc";
 
 const TechCard = ({ name, icon }) => {
   return (
-    <Tilt className="xs:w-[120px] w-full">
+    <Tilt className="xs:w-[120px]">
       <motion.div
         variants={fadeIn("right", "spring", 0.5, 0.75)}
         className=" w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
@@ -37,7 +37,7 @@ const About = () => {
         <p className={styles.sectionSubText}>my skills</p>
         <h2 className={styles.sectionHeadText}>Technologies.</h2>
       </motion.div>
-      <div className=" mt-20 flex flex-wrap gap-10">
+      <div className=" justify-center items-center ml-12 xs:ml-8 mt-20 flex flex-wrap gap-10">
         {technologies.map((technology) => (
           <TechCard key={technology.name} {...technology} />
         ))}
