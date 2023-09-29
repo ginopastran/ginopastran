@@ -37,7 +37,7 @@ const About = () => {
         <p className={styles.sectionSubText}>my skills</p>
         <h2 className={styles.sectionHeadText}>Technologies.</h2>
       </motion.div>
-      <div className=" justify-center items-center ml-12 xs:ml-8 mt-20 flex flex-wrap gap-10">
+      <div className=" justify-center items-center mt-20 flex flex-wrap gap-10">
         {technologies.map((technology) => (
           <TechCard key={technology.name} {...technology} />
         ))}
