@@ -38,6 +38,8 @@ import metaversus from "./metaversus.png";
 import flashai from "./flashai.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import brainwave from "./brainwave.png";
+import luffi from "./luffi.png";
 
 export {
   logo,
@@ -57,6 +59,8 @@ export {
   git,
   html,
   flashai,
+  brainwave,
+  luffi,
   threads,
   javascript,
   mongodb,

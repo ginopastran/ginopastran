@@ -14,6 +14,8 @@ import {
   nodejs,
   mongodb,
   metaversus,
+  brainwave,
+  luffi,
   git,
   figma,
   docker,
@@ -275,6 +277,45 @@ const projects = [
     image: metaversus,
     source_code_link: "https://github.com/ginopastran/metaversus",
     live_demo_link: "https://www.metaversus.space/",
+  },
+  {
+    name: "Brainwave",
+    description: "Beatiful design to showcase my skills with Frontend",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: brainwave,
+    source_code_link: "https://github.com/ginopastran/brainwave-app",
+    live_demo_link: "https://brainwave-app-wine.vercel.app/",
+  },
+  {
+    name: "Dr Luffi Vet",
+    description:
+      "This page is an ecommerce developed with next.js in the backend, react in the frontend and the integration of the Mercado Pago payment gateway",
+    tags: [
+      {
+        name: "mercadopagoapi",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "next.js",
+        color: "green-text-gradient",
+      },
+    ],
+    image: luffi,
+    source_code_link: "https://github.com/ginopastran/veterinaria-store",
+    live_demo_link: "https://veterinaria-luffi.vercel.app/",
   },
 ];
 
