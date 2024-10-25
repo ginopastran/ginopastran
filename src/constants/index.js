@@ -33,6 +33,10 @@ import {
   davinci,
   photoshop,
   next,
+  lucas,
+  iphone,
+  ciclo,
+  bathouse,
 } from "../assets";
 
 export const navLinks = [
@@ -56,16 +60,16 @@ const services = [
     icon: web,
   },
   {
-    title: "Graphic Designer",
-    icon: mobile,
-  },
-  {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Frontend Developer",
     icon: creator,
+  },
+  {
+    title: "Graphic Designer",
+    icon: mobile,
   },
 ];
 
@@ -213,53 +217,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Flash AI",
+    name: "Lucas Zagarra Web",
     description:
-      "Saas AI platform that allows users to use chatbot, generate images, music, video and code. I used the OpenAI API to connect the chat, code and image generation",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "chatgpt",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: flashai,
-    source_code_link: "https://github.com/ginopastran/Flash-AI",
-    live_demo_link: "https://flash-ai-two.vercel.app/",
-  },
-  {
-    name: "Threads Clone",
-    description:
-      "Threads Web application clone. It allows to post a thread, create organizations, edit profile and delete the threads.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "clerk",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: threads,
-    source_code_link: "https://github.com/ginopastran/threads-app",
-    live_demo_link: "https://threads-app-pearl-two.vercel.app/",
-  },
-  {
-    name: "Metaversus",
-    description:
-      "A simple landing page showing my skills using Framer Motion, TailwindCSS and React.",
+      "A portfolio showcasing the work of a video editor, highlighting his creative projects and editing skills with cutting-edge technology to display a variety of visual projects",
     tags: [
       {
         name: "react",
@@ -270,17 +230,38 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: metaversus,
-    source_code_link: "https://github.com/ginopastran/metaversus",
-    live_demo_link: "https://www.metaversus.space/",
+    image: lucas,
+    source_code_link: "https://github.com/ginopastran/Flash-AI",
+    live_demo_link: "https://lucaszagarra.vercel.app/",
   },
   {
+    name: "iPhone 15 Clone",
+    description:
+      "A clone of the iPhone 15 presentation page, designed to replicate the user experience and visual style of Apple’s official website.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "framer-motion",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: iphone,
+    source_code_link: "https://github.com/ginopastran/threads-app",
+    live_demo_link: "https://iphone15web-clone.vercel.app/",
+  },
+
+  {
     name: "Brainwave",
-    description: "Beatiful design to showcase my skills with Frontend",
+    description:
+      "A mock page of a fictional AI platform that simulates integration with other apps, featuring an attractive design that highlights advanced frontend skills",
     tags: [
       {
         name: "react",
@@ -296,14 +277,10 @@ const projects = [
     live_demo_link: "https://brainwave-app-wine.vercel.app/",
   },
   {
-    name: "Dr Luffi Vet",
+    name: "Ciclo Web",
     description:
-      "This page is an ecommerce developed with next.js in the backend, react in the frontend and the integration of the Mercado Pago payment gateway",
+      "The website of a company providing software solutions. Built with Next.js and React.",
     tags: [
-      {
-        name: "mercadopagoapi",
-        color: "blue-text-gradient",
-      },
       {
         name: "react",
         color: "pink-text-gradient",
@@ -313,9 +290,31 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: luffi,
+    image: ciclo,
     source_code_link: "https://github.com/ginopastran/veterinaria-store",
-    live_demo_link: "https://veterinaria-luffi.vercel.app/",
+    live_demo_link: "https://www.ciclosoluciones.com/",
+  },
+  {
+    name: "Bathouse",
+    description:
+      "A web app featuring a landing page and a pricing calculator for building a house, TailwindCSS, and Next.js for a dynamic and professional visual experience.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bathouse,
+    source_code_link: "https://github.com/ginopastran/metaversus",
+    live_demo_link: "https://www.bathouse.ar/",
   },
 ];
 

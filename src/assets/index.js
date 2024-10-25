@@ -40,8 +40,16 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import brainwave from "./brainwave.png";
 import luffi from "./luffi.png";
+import lucas from "./lucas.png";
+import iphone from "./iphone.png";
+import ciclo from "./ciclo.png";
+import bathouse from "./bathouse.png";
 
 export {
+  bathouse,
+  ciclo,
+  iphone,
+  lucas,
   logo,
   metaversus,
   backend,
